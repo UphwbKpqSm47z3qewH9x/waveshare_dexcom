@@ -5,7 +5,12 @@ from PIL import Image, ImageFont, ImageDraw
 
 from font_intuitive import Intuitive
 
-from inky import InkyPHAT, InkyWHAT
+#from inky import InkyPHAT, InkyWHAT
+from waveshare_epd import epd2in13_V3
+    epd = epd2in13_V3.EPD()
+    logging.info("init and Clear")
+    epd.init()
+    epd.Clear(0xFF)
 from config import matplotImagePath, inkyPhatColour, inkyPhatLastImageShown, saveLastImageShown
 
 def displayText(text, position, size, offsetx, offsety):
