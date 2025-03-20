@@ -27,8 +27,8 @@ from PIL import Image, ImageDraw, ImageFont
 DEBUG = True  # Set to False for production
 # NIGHTSCOUT_URL = "YOUR_NIGHTSCOUT_URL"  # Replace with your Nightscout URL # Not used with direct Dexcom
 # NIGHTSCOUT_API_SECRET = "YOUR_API_SECRET" # Replace with your Nightscout API secret, if required # Not used with direct Dexcom
-DEXCOM_USERNAME = "deculpep"  # Replace with your Dexcom username
-DEXCOM_PASSWORD = "d7tAV4q7b7iG8wTpHJBm"  # Replace with your Dexcom password
+DEXCOM_USERNAME = "username"  # Replace with your Dexcom username
+DEXCOM_PASSWORD = "password"  # Replace with your Dexcom password
 LOCATION = "Home"  # Or any identifier you want
 SLEEP_DURATION = 300  # Time between updates in seconds (e.g., 300 for 5 minutes)
 FONT_PATH = '/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf'  # Path to a font on your system
